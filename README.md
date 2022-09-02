@@ -1,1 +1,3 @@
-#Mapty Project
+Mapty Project
+
+Build with Jonas JS Course
