@@ -219,8 +219,6 @@ class App {
     const workout = this.#workouts.find(i => i.id === workoutEl.dataset.id);
 
     this.#map.setView(workout.coords, this.#mapZoomLevel, { animate: true, pan: { duration: 1 } });
-
-    // workout.click();
   }
 
   _renderWorkoutMarker(workout) {
